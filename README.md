@@ -259,6 +259,42 @@ build.mjs       esbuild bundler
 - [ ] An organization gateway for apps outside the browser
 - [ ] Tamper-evident audit hashes
 
+## Contributing
+
+We welcome contributions to P2Shield! Here's how you can help:
+
+### Reporting Issues
+
+- Use the GitHub issue tracker to report bugs or request features
+- Check existing issues before creating a new one
+- Provide clear reproduction steps and environment details
+
+### Submitting Changes
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Make your changes with clear, tested code
+4. Run the test suite: `npm test`
+5. Commit with clear messages (`git commit -m 'Add amazing feature'`)
+6. Push to your fork (`git push origin feature/amazing-feature`)
+7. Open a Pull Request
+
+### Development Guidelines
+
+- Write unit tests for new functionality
+- Follow the existing TypeScript code style
+- Keep the core engine browser-agnostic (no browser APIs in `src/core`)
+- Update documentation for API changes
+- Ensure all tests pass before submitting PRs
+
+### Areas for Contribution
+
+- Additional identifier patterns (government IDs, card formats)
+- New privacy profiles for specific industries
+- Internationalization and language support
+- Performance optimizations
+- Documentation improvements
+
 ## License
 
-MIT. See [`packages/p2shield/LICENSE`](packages/p2shield/LICENSE).
+MIT License. See [LICENSE](LICENSE) file for details.
