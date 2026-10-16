@@ -17,7 +17,6 @@
 </p>
 
 <p align="center">
-  Team <strong>TechKnights</strong> · BITSHIFT 2026 · Problem Statement 10:
   <em>Pre-LLM Privacy Firewall for Sensitive Data Protection</em>
 </p>
 
